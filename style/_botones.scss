@@ -1,0 +1,13 @@
+.btn{
+    color:rgb(206, 64, 187);
+    background-color: white;
+}
+.badge{
+    color: white;
+    background-color: rgb(206, 64, 187);
+}
+.btn:hover{
+    transition: background-color 0.5s ease;
+    background-color: rgb(206, 64, 187);
+    color: white;
+}
