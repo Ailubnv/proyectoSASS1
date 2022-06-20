@@ -10,7 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../estilos/style.css"/>
+    <link rel="stylesheet" href="../estilos/style.css" />
 
     <title>Arcane - Tienda Online</title>
   </head>
@@ -18,16 +18,16 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav d-flex justify-content-evenly w-100 p-1">
             <li
@@ -69,7 +69,7 @@
         <div class="container-fluid">
           <h2 class="text-center mt-2 fs-3">Contacto</h2>
           <div class="container">
-            <hr class="hr p-1" />
+            <hr class="hr p-1"/>
           </div>
         </div>
 
@@ -101,9 +101,111 @@
             ></textarea>
           </div>
           <section class="container d-flex justify-content-end mb-4">
-            <button type="button" class="btn btn-outline-dark">
-              Enviar
-            </button>
+            <button type="button" class="btn btn-outline-dark">Enviar</button>
+          </section>
+        </div>
+      </div>
+
+      <!--carousel-->
+      <div class="container-fluid text-white bg-dark">
+        <div class="container bg-dark d-flex justify-content-center w-50">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <section
+                  class="row d-flex justify-content-center opacity-50 mb-5 mt-5"
+                >
+                  <img
+                    src="../imgs/ivrea.png"
+                    class="col-3 d-block border-start border-end border-secondary"
+                    alt="editoriales"
+                  />
+                  <img
+                    src="../imgs/marvel.jpg"
+                    class="col-3 d-block border-start border-end border-secondary"
+                    alt="editoriales"
+                  />
+                  <img
+                    src="../imgs/milky.jpg"
+                    class="col-3 d-block border-start border-end border-secondary"
+                    alt="editoriales"
+                  />
+                </section>
+              </div>
+
+              <div class="carousel-item">
+                <section
+                  class="row d-flex justify-content-center opacity-25 mb-5 mt-5"
+                >
+                  <img
+                    src="../imgs/panini.png"
+                    class="col-3 d-block border-start border-end border-secondary"
+                    alt="editoriales"
+                  />
+                  <img
+                    src="../imgs/norma.jpg"
+                    class="col-3 d-block border-start border-end border-secondary"
+                    alt="editoriales"
+                  />
+                  <img
+                    src="../imgs/dc.jpg"
+                    class="col-3 d-block border-start border-end border-secondary"
+                    alt="editoriales"
+                  />
+                </section>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+<!--end carousel-->
+
+        <div class="container-fluid text-center text-secondary">
+          <h3 class="contactotxt fs-5">
+            ¿Querés recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a
+            disfrutarlas!
+          </h3>
+          <section
+            id="contacto"
+            class="contacto-section d-flex justify-content-center mt-4"
+          >
+            <div class="form-floating">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email</label>
+              <button class="btn mt-3 btn-outline" type="submit">Enviar</button>
+            </div>
           </section>
         </div>
       </div>
@@ -111,17 +213,20 @@
 
     <!--START FOOTER-->
 
-    <footer class="footer container-fluid bg-dark p-5">
-      <div class="container-fluid text-secondary text-center mt-5">
-        <p id="copy mt-5">
-          <strong>©</strong> Arcane Online - 2022. Todos los derechos reservados
-        </p>
+    <footer class="footer container-fluid bg-dark p-1">
+      <div class="container-fluid text-secondary text-center">
+        <section class="mt-5">
+          <p id="copy">
+            <strong>©</strong> Arcane Online - 2022. Todos los derechos
+            reservados
+          </p>
+        </section>
       </div>
     </footer>
     <!--END FOOTER-->
 
-      <!--script-->
-      <script
+    <!--script-->
+    <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
       crossorigin="anonymous"
@@ -131,6 +236,5 @@
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
       crossorigin="anonymous"
     ></script>
-    
   </body>
 </html>

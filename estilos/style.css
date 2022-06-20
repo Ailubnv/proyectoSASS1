@@ -34,6 +34,10 @@ body {
   color: white;
 }
 
+.form-floating {
+  width: 20%;
+}
+
 /*animaciones*/
 .card:hover {
   transform: scale(1.1);
