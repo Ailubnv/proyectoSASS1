@@ -8,7 +8,9 @@ body {
 }
 
 .hr {
-  color: rgb(104, 22, 129);
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, white, rgba(150, 34, 165, 0.75), white);
 }
 
 .btn {
@@ -28,7 +30,8 @@ body {
 }
 
 .bg-color {
-  background-image: linear-gradient(rgb(104, 22, 129), white);
+  background-image: linear-gradient(to right, white, rgba(143, 26, 167, 0.75), white);
+  color: white;
 }
 
 /*animaciones*/
