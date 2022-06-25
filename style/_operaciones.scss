@@ -1,0 +1,10 @@
+/*mapas*/
+
+$datos: (
+         contact: rgb(214, 160, 221),
+);
+@each $dts, $color1 in $datos {
+    .dat--#{contact}{
+        color: $color1;
+    }
+}

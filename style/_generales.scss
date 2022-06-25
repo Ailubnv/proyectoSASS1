@@ -3,12 +3,12 @@
     padding: 0;
 }
 body{
-    background-color: white;
+    background-color: $color2;
 } 
 .hr{
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, white, rgb(153, 69, 192), white);
+    background-image: linear-gradient(to right, $color2, $color1, $color2);
 }
 
 

@@ -1,15 +1,16 @@
 .bg-color{
-    background-image: linear-gradient(to right, white, rgb(153, 69, 192), white);
-    color: white;
+    background-image: linear-gradient(to right, $color2, $color1, $color2);
+    color: $color2;
 }
 .form-floating{
    width: 30%;
 }
 .bg-image{
    background-image: url(../imgs/fondosnk.jpg);
-   width: 100%;
+   background-size: cover;
 }
 .bg-contacto{
     background-color: rgba(4, 7, 7, 0.582);
-    color: white;
+    color: $color2;
 }
+
